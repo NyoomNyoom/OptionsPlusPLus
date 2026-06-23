@@ -45,8 +45,7 @@ Confirm with the user:
   ```
   pip install hidapi pyside6 keyboard
   ```
-  If `pip` itself is blocked, stop — the policy is stricter than just a blocked
-  installer and this approach won't clear it.
+  If `pip` itself is blocked, try to get the user to setup a venv and use that for pip.
 
 ### Step 1 — Find the working interface + device index
 Have the user run `probe2.py` and paste the full output.
